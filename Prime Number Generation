@@ -6,6 +6,7 @@ namespace Prime_Numbers
     {
         static void Main(string[] args)
         {
+            //To be run in c#
             int num, i, ctr, stno, enno, counter, sqc;
             Console.Write("Input starting number of range: ");
             stno = Convert.ToInt32(Console.ReadLine());
