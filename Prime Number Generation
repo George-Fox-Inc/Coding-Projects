@@ -7,16 +7,16 @@ namespace Prime_Numbers
         static void Main(string[] args)
         {
             //To be run in c#
-            int num, i, ctr, stno, enno, counter, sqc;
+            int num, i, ctr, startno, endno, counter, sqc;
             Console.Write("Input starting number of range: ");
-            stno = Convert.ToInt32(Console.ReadLine());
+            startno = Convert.ToInt32(Console.ReadLine());
             Console.Write("Input ending number of range : ");
-            enno = Convert.ToInt32(Console.ReadLine());
-            Console.Write("The prime numbers between {0} and {1} are : \n", stno, enno);
-            int[] primearray = new int[enno];
+            endno = Convert.ToInt32(Console.ReadLine());
+            Console.Write("The prime numbers between {0} and {1} are : \n", startno, endno);
+            int[] primearray = new int[endno];
             counter = 0;
 
-            for (num = stno; num <= enno; num++)
+            for (num = startno; num <= endno; num++)
             {               
                 ctr = 0;
 
